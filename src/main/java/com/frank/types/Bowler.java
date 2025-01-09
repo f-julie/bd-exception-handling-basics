@@ -33,6 +33,8 @@ public class Bowler {
                 this.scores = scores;
         }
 
+        // A property is a value produced by a method that appears to be a variable to the user of the class
+        // also known as a derived value (see that average is not a variable but there is a getAverage()
         // property to return derived Bowler average
         public double getAverage() {
            int totalScore = 0;  // hold total of all scores
